@@ -76,38 +76,6 @@ as welcome as bugs.
 
 ---
 
-## Building it
-
-The source lives in [SherlockedMain/GamesTransaltion][source], the pokecrystal
-disassembly with the translation and the font engine on top.
-
-```sh
-git clone https://github.com/SherlockedMain/GamesTransaltion
-cd GamesTransaltion
-make
-```
-
-You need [rgbds][rgbds] **v1.0.1** — other versions assemble differently and
-will not reproduce the published patch byte for byte. `INSTALL.md` in that repo
-is pokecrystal's own setup guide and applies unchanged.
-
-To regenerate the distributable patch, build vanilla pokecrystal at the same
-rgbds version and diff the two ROMs:
-
-```sh
-flips --create vanilla/pokecrystal.gbc pokecrystal.gbc pokecrystal-arabic.bps
-```
-
-Worth reading before touching the text engine:
-
-- `FONT16_NOTES.md` — the tall font, and the traps in it
-- `FONT_8x16_SPEC.md` — tile layout and the glyph ring
-- `tools/arabic_text.py` — the encoder. `convert()['tiles']` counts **bytes**;
-  `tokenise()` counts **cells**, and they differ wherever a letter spans two
-  tiles (س ش ص ض). Measuring a line against the 18-cell box wants the second.
-
----
-
 ## Credits
 
 Built on [pret/pokecrystal][pokecrystal], the disassembly that makes any of
