@@ -1,6 +1,6 @@
 # v1.0 — Pokémon Crystal in Arabic
 
-### بوكيمون كريستال بالعربية
+### بوكيمون نسخة البلور بالعربية
 
 The full game, in Arabic, right to left, with the letters joined.
 
