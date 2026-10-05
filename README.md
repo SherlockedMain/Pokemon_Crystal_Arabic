@@ -18,6 +18,15 @@ right-to-left, shaping-aware **8×16 renderer** that runs alongside the original
 > download is a *patch* — a list of differences — and it does nothing without
 > the original game.
 
+<p align="center">
+  <img src="screenshots/01-title.png" width="320" alt="Title screen: بوكيمون نسخة البلور">
+  <img src="screenshots/04-welcome.png" width="320" alt="أهلا بك في عالم البوكيمون!">
+</p>
+<p align="center">
+  <img src="screenshots/03-boy-or-girl.png" width="320" alt="هل أنت فتى أم فتاة؟">
+  <img src="screenshots/02-main-menu.png" width="320" alt="Main menu: مغامرة جديدة / الإعدادات">
+</p>
+
 ---
 
 ## Playing it
