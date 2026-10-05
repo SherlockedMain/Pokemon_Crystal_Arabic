@@ -25,6 +25,9 @@ right-to-left, shaping-aware **8×16 renderer** that runs alongside the original
 <p align="center">
   <img src="screenshots/04-moves.png" width="320" alt="الحركات">
   <img src="screenshots/02-main-menu.png" width="320" alt="Main menu: مغامرة جديدة / الإعدادات">
+  <img src="screenshots/12.png" width="320" alt="Main menu: الغريم">
+  <img src="screenshots/05-pack.png" width="320" alt="Main menu: الحقيبة">
+  <img src="screenshots/09.png" width="320" alt="Main menu:الحالة">
 </p>
 
 ---
