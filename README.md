@@ -23,7 +23,7 @@ right-to-left, shaping-aware **8×16 renderer** that runs alongside the original
   <img src="screenshots/04-welcome.png" width="320" alt="أهلا بك في عالم البوكيمون!">
 </p>
 <p align="center">
-  <img src="screenshots/03-boy-or-girl.png" width="320" alt="هل أنت فتى أم فتاة؟">
+  <img src="screenshots/04-moves.png" width="320" alt="الحركات">
   <img src="screenshots/02-main-menu.png" width="320" alt="Main menu: مغامرة جديدة / الإعدادات">
 </p>
 
