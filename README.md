@@ -1,6 +1,6 @@
 # Pokémon Crystal — Arabic
 
-### بوكيمون كريستال — الترجمة العربية
+### بوكيمون نسخة البلور — الترجمة العربية
 
 Pokémon Crystal, in Arabic. Every line the game can show you — dialogue, menus,
 battle text, item and move names, Pokédex entries, the trainer card, phone
