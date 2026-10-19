@@ -34,7 +34,7 @@ right-to-left, shaping-aware **8×16 renderer** that runs alongside the original
 
 ## Playing it
 
-**1. Get the patch.** `pokecrystal-arabic.bps`, from the
+**1. Get the patch.** `Pokemon_Crystal_Arabic_OS.bps`, from the
 [latest release][releases].
 
 **2. Get your ROM.** Pokémon Crystal **(UE) v1.0**, from your own cartridge or
@@ -54,7 +54,7 @@ gives you an error instead of a quietly broken game.
 
 - [Floating IPS (Flips)][flips] — Windows, macOS, Linux
 - [RomPatcher.js][rompatcher] — runs in your browser, nothing to install
-- `flips --apply pokecrystal-arabic.bps your-crystal.gbc crystal-arabic.gbc`
+- `flips --apply Pokemon_Crystal_Arabic_OS.bps your-crystal.gbc crystal-arabic.gbc`
 
 A correct result has SHA-1 `1c8dab7189794ffc49052f1310f6cc824bb8b461`.
 
