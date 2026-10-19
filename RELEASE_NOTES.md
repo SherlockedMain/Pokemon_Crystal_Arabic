@@ -1,8 +1,8 @@
-# v1.0.2 — a crash fix and two text fixes
+# v1.0.2 — a crash fix and three text fixes
 
 ### بوكيمون نسخة البلور بالعربية
 
-A point release on top of v1.0.1. Same translation, one crash and two broken
+A point release on top of v1.0.1. Same translation, one crash and three broken
 texts fixed.
 
 ## What changed
@@ -38,25 +38,46 @@ answered. It now prints like every other dialogue.
 **Battle Tower trainers' greetings, win and loss lines** went through the same
 routine and were mirrored the same way. Fixed.
 
+**The names of two pairs of twins were too long for the dialogue box.** In a
+battle, a twin pair is announced as their class and then both names — التوأمتان
+هدى وندى — and every battle line that starts with the trainer ("wants to
+battle", "sent out", "withdrew", "was defeated" and the rest) puts that on a
+single line. تالة وهالة was one letter too wide: the last letter fell off the
+left edge of the box and a stray fragment of it showed in the top corner. جاد
+وزينة fitted the box exactly, with no room left for the "!" that ends the
+"you lost against…" and "tied against…" lines — and جاد is a boy's name for two
+girls. The two pairs are now:
+
+| Where | Before | Now |
+|---|---|---|
+| The Spinarak and Ledyba twins | تالة وهالة | **هدى وندى** |
+| The Victreebel and Vileplume twins | جاد وزينة | **جنى وسنا** |
+
+Both are eight tiles, so they fit with room to spare. The other three pairs —
+آية ومي, مهى ومنى and ليا وريا — already fitted and are unchanged. Only the
+names changed: a pair you have already beaten stays beaten, and their teams are
+the same.
+
 ## Cheats
 
 GameShark codes written for the original game point at the wrong memory in
 this version, because the Arabic build added variables and moved the game's data
 (money, for instance, lives at `D85D` instead of `D84E`). A code made for the
-original can write over something else. Codes need converting to this version's addresses before they are used;
-do not paste original ones in as they are.
+original can write over something else. Codes need converting to this
+version's addresses before they are used; do not paste original ones in as
+they are.
 
 ## Download
 
-**`pokecrystal-arabic.bps`** — apply it to your own copy of the game.
+**`Pokemon_Crystal_Arabic_OS.bps`** — apply it to your own copy of the game.
 
 | | |
 |---|---|
 | Base ROM | Pokémon Crystal (UE) **v1.0** |
 | Base SHA-1 | `f4cd194bdee0d04ca4eac29e09b8e4e9d818c133` |
-| Patched SHA-1 | `1c8dab7189794ffc49052f1310f6cc824bb8b461` |
-| Patch SHA-1 | `362351f7bf1b1e947b7d8d5e0518df24f08a999b` |
-| Patch size | 413,632 bytes |
+| Patched SHA-1 | `7abd57e60d20f71f243dc42afbe785c2b6e23168` |
+| Patch SHA-1 | `74260f1e7ade62835dbf8ccef27b3314ecf7e612` |
+| Patch size | 413,630 bytes |
 
 No ROM is distributed here. BPS checksums the base, so the wrong revision —
 v1.1, the Australian release, a debug build — is refused with an error rather

@@ -56,7 +56,7 @@ gives you an error instead of a quietly broken game.
 - [RomPatcher.js][rompatcher] — runs in your browser, nothing to install
 - `flips --apply Pokemon_Crystal_Arabic_OS.bps your-crystal.gbc crystal-arabic.gbc`
 
-A correct result has SHA-1 `1c8dab7189794ffc49052f1310f6cc824bb8b461`.
+A correct result has SHA-1 `7abd57e60d20f71f243dc42afbe785c2b6e23168`.
 
 **4. Play it** on anything accurate: [mGBA][mgba], [BGB][bgb], SameBoy, an
 Analogue Pocket, or a flashcart on real hardware.
